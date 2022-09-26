@@ -1,0 +1,20 @@
+# How Does The Internet Work ?
+
+The internet is a computer network that connect all device worldwide via data sharing.
+
+# What does HTML do?
+
+Html is a markup language used to create a webpage. It discribes the structure of page we want to create.
+
+# What does CSS do?
+
+CSS is a styling tool that can be used to improve html contents and make it easy to read.
+
+# What does JavaScript do?
+
+JavaScript is a sripting language that can be used to empower html contents and give them functionality.
+
+# What is the difference between frontend and backend?
+
+The frontend development is the part of the webpage (html) that users can see and interact with. And the backend development is the hiden part of the web that only develpers use to ensure the proper functionality of the web.
+so in other words, frontend is for users and backendfor developers 
