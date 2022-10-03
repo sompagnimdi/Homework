@@ -1,0 +1,16 @@
+# What do the HTTP Status Codes represent?
+
+Hypertext Transfer Protocol and its code represent the server response to a browser's request.
+
+For example a 500 would display on the browser to indicate an internal server error.
+While 400 would represent the a request or client error in either case the server cannot provide the requested information to the user.
+A 200 code means that the request was successful and the right response would be displayed to the browser.
+A 300 code indicate that there are multiple response that match the request and the user need to make a specific choice.
+
+
+# What are the Primary HTTP Verbs and their meaning?
+
+C for Create or Post
+R for Read or Get
+U for Update or Put
+D for Delete
