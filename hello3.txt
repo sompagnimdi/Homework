@@ -1,0 +1,23 @@
+# What does Index do?
+
+It display the list of items requested by the user. Eg /vegetables/ would display all the vegetables list avilable in the server
+
+# What does New do?
+
+It display an HTML form for creating a new item for user. Eg /vegetables/new would display an input for the user to select a new vegie
+
+# What does Create do?
+
+It allow user to Create a new vegie available in the server
+
+# What does Show do?
+
+It would display the item selected when user use a specific id. Eg /vegetables/:id 
+
+# Give an example of markdown
+
+```js
+Hello developers lets write some markdown
+
+```
+
