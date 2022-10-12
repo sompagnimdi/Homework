@@ -1,0 +1,49 @@
+# What is Big O Notation?
+
+Can be describe as a mathematical tool that calculate the time needed to run an algorithm when the input grows.
+
+
+ # Contrast Big O with Omega and Theta
+
+ Big O is for the worst case analysis 
+
+Big Omega is best possible analysis
+
+Theta is the average or the middle ground when both best and worst case analysis are similar.
+
+
+# Show 1 Code Example Of Linear Time Complexity
+
+// Creates this array: [0, 1, 2, 3, 4, 5]
+tinyArray = Array.from(Array(5).keys())
+
+findRandomNumberInArray(tinyArray)
+
+function findRandomNumberInArray(arr) {
+  const randomNum = Math.floor(Math.random() * arr.length)
+  for (let i = 0; i < arr.length; i++) {
+    if (randomNum === arr[i]) return arr[i]
+  }
+}
+
+Eg. A truck uses 7mpg. if the truck run from New York to Atlanta (865ml), it would use 124 gal for the trip.
+
+
+#  Show 1 Code Example of Quadratic Time Complexity.
+
+// example of code
+
+const fakeTwoDimensionArray = [1, 2, 3, 4, 5]
+
+logArray(fakeTwoDimensionArray)
+
+function logArray(arr) {
+  for(let i = 0; i < arr.length; i++){
+    console.log(arr[i])
+    for(let j = 0; j < arr.length; j++){
+      console.log("i: ", arr[i], "j: ", arr[j])
+    }
+  }
+}
+
+Eg. Similar example with the truck using 124gal to GA, if the same company dispatches 5 truck for the trip, they would all use 620 gl for the trip.
