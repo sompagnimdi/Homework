@@ -1,0 +1,40 @@
+ # Is Node.js a programming language?
+
+ Node.js is not a programing language. It is only use for back-end developement for JavaScript.
+
+ # Is Express a programming language?
+
+No Express is not a programing language. it is a back-end web application for building APIs. 
+
+ # What is the primary reason why Node/Express applications are so performant?
+
+ it is so performant because it only operate on a single-threat and also using google v8 engine.
+
+ # Is...const el = document.getElementById('my-list');a valid JavaScript statement in a Node app?
+
+ No because Node that not run on browser. instead we can parse an html file in Node that include ths JS code.
+
+ # What is a Model?
+
+ Multimedia for Open and Dynamic Executives Learning or specific design of something that make it unique. Models are responsible for creating and reading documents from the underlying MongoDB database.
+
+ # What is A View Engine?
+
+ is a tool use to render web page by using template files.
+
+ # What is A DataController?
+
+ DataController is a tool use in the server to provid data available to the user.
+
+ # What is A ViewController?
+
+ ViewController is use to display available data to the user.
+
+ # What is A RouteController?
+
+ IS a tool used in back-end to guid the data distribution process.
+
+ # What is Express Middleware?
+
+ The Express Middleware is a tool use to coordinate the action between the user request and the response from the database. 
+
